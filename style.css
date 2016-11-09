@@ -1,0 +1,374 @@
+*{
+	margin:0px;
+	
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#111;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+/* Full-width input fields */
+ input[type=text],input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #009688;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212121;
+}
+
+
+
+form {
+  text-align: center;
+  
+}
+
+
+.two , .one {
+	
+	
+    background-color: white;
+
+	
+	background:#E6BE8A;
+	width:100%;
+	text-align:center;
+	border-radius:20px;
+	box-shadow:rgba(110,110,110, .6) 5px 5px 5px;
+	
+	
+	// background:radial-gradient();
+	margin: 2%;
+
+	transition:transform 0.5s;
+	
+	
+    border: none;
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+#add{
+	position:relative;
+	
+}
+
+
+.two:hover , .one:hover{
+   background-color:#D2B48C;
+   
+
+}
+
+
+body{  
+
+ width:100%;
+
+
+}
+#top_article{
+	width:100%;
+}
+
+.main_menu:hover{
+		background:	#f3dfc6;
+		
+}
+
+
+
+.cat{
+	
+margin: 30px 25%;
+	
+}
+
+.cate{
+	clear:both;
+	background:#DEB887;
+	font-size:150%;
+	opacity:0.66;
+	justify-content:center;
+	color:white;
+	display:flex;
+	color:white;
+	padding:30px ;
+	margin:10px;
+	border-radius:20px;
+	box-shadow:rgba(110,110,110, .6) 5px 5px 5px;
+	
+	transition:transform 0.5s;
+}
+
+.cate a{
+	
+	text-align:center;
+}
+
+
+
+.cate:hover{
+	transform:scale(1.1);
+	background:	#edd1ad;
+	color:black;
+}
+
+
+
+.sub1{
+	//border:3px solid #357EC7;
+	background:#f3dfc6 ;
+	padding:3%;
+	color:black;
+	opacity:0.73;
+	display: -webkit-flex;
+	 display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display:flex;
+	justify-content:space-between;
+	margin:3% 10%;
+	position:relative;
+	left:10px;
+	top:-40px;
+	border-radius:20px;
+	box-shadow:rgba(110,110,110, .6) 5px 5px 5px;
+	
+}
+
+.sub1_image{
+	//border:3px solid red;
+	width:20%;
+	height:150px;
+	
+}
+
+.sub1_info{
+	
+	//border:3px solid red;
+	width:30%;
+	font-family:Tahoma;
+
+	height:auto;
+	font-size:150%;
+
+
+	
+}
+
+.sub1_price{
+	//border:3px solid red;
+	width:20%;
+	font-size:200%;
+}
+
+
+#main_ul :hover,#main_ul li:hover{
+		 background-color:#ebcba1;
+		 color:black;
+		 opacity:0.85;
+}
+
+
+.sub{
+	
+	width:90%;
+	margin:5%;
+	
+	position:relative;
+	
+	border-radius:20px;
+	box-shadow:rgba(110,110,110, .6) 5px 5px 5px;
+	
+}
+
+#top_sub{
+	
+	//border: 3px solid black;
+	width:80%;
+	margin:7.5%;
+	height:100px;
+	display: -webkit-flex;
+	 display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display:flex;
+	justify-content:space-between;
+	
+	
+}
+
+.sub_menu{
+	//border: 3px solid black;
+	width :20%;
+	margin:5%;
+	font-size:200%;
+	
+}
+
+#tag
+{
+	justify-content:space-between;
+	
+}
+
+html{
+	 background-image: url("back1.jpg");
+	 background-image-width:20%;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+.one1{
+	
+	
+    background-color: white;
+
+	
+	background:#ebcba1;
+	width:62%;
+	text-align:center;
+	border-radius:20px;
+	box-shadow:rgba(50,50,50, .6) 5px 5px 5px;
+	
+	
+	// background:radial-gradient();
+	margin: 2%;
+
+	transition:transform 0.5s;
+	opacity:0.73;
+	
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+.one1:hover{
+	background:black;
+	color:white;
+	opacity:0.5;
+}
+

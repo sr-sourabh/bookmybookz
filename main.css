@@ -1,0 +1,65 @@
+*{
+	
+	
+		font-family : Tahoma;
+}
+
+body{
+	
+	background:none;
+	font : Tahoma;
+	
+	
+	
+	
+}
+
+
+
+a{
+	text-decoration:none;
+}
+
+#wrapper{
+	
+	
+	
+	padding:10px;
+	
+}
+
+#top_header{
+	text-align:center;
+
+}
+
+nav{
+	background-color:white;
+}
+
+
+
+#main_ul    {
+	list-style-type: none;	
+}
+
+#main_ul li{
+	 
+	 
+	 padding:12px;
+	 border-right:1px solid #bbb;
+	 border-left:1px solid #bbb;
+	 
+}
+
+
+
+
+
+
+footer{
+	margin:20px;
+}
+
+
+
